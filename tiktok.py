@@ -26,8 +26,8 @@ print(b)
 
 tiktok_user = input("Masukan Username Tiktok : ")
 print()
-url = "https://tiktok.com/@" + tiktok_user
-r = rq.get(url)
+u = "https://tiktok.com/@" + tiktok_user
+r = rq.get(u)
 if r.status_code == 200:
     print("Akun ditemukan : ")
     print()
