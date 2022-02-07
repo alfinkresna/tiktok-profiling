@@ -31,7 +31,7 @@ r = rq.get(u)
 if r.status_code == 200:
     print("Akun ditemukan : ")
     print()
-    print(f"> Link Akun : {url}")
+    print(f"> Link Akun : {u}")
     print()
 elif r.status_code == 404:
     print("Akun tidak ditemukan")
